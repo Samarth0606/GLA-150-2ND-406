@@ -1,0 +1,75 @@
+/* element selector */
+/* h1{
+    color: red;
+} */
+
+/* id selector */
+/* #sam{
+    font-size: 100px;
+} */
+
+/* class selector */
+/* .vohra{
+    background-color: yellow;
+} */
+
+/* universal selector */
+
+/* *{
+    border: 5px solid red;
+    border: 5px dotted green;
+    border: 5px dashed black;
+} */
+
+/* attribute selector */
+
+/* input{
+    background-color: orange;
+} */
+
+/* input[type="text"]{
+    background-color: powderblue;
+}
+input[type="password"]{
+    background-color: green;
+}
+a[href="http://google.com"]{
+    font-size: 200px;
+    color: red;
+}
+a[href="http://facebook.com"]{
+    font-size: 10px;
+    background-color: blue;
+}
+ */
+
+
+div{
+    background-color: red;
+}
+
+div:hover{
+    background-color: green;
+}
+
+input{
+    background-color: red;
+}
+
+input:focus{
+    background-color: aqua;
+    font-size: 100px;
+}
+
+a{
+    font-size: 100px;
+}
+
+a:active{
+    color: pink;
+}
+
+a:visited{
+    color: aqua;
+    /* background-color: yellow; */
+}
