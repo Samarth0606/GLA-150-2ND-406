@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: content-box; */
+    box-sizing: border-box;
+}
+
+ div{
+    background-color: aqua;
+    width: 100px;
+    height:100px;
+
+    padding: 10px;
+
+    margin: 100px;
+
+    border: 5px solid black;
+}
+span{
+    /* display: block; */
+    /* display: inline-block; */
+    /* display: none; */
+    visibility: hidden;
+
+    background-color: aqua;
+    width: 100px;
+    height:100px;
+
+    padding: 10px;
+
+    margin: 0px;
+
+    border: 5px solid black;
+}
