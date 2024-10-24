@@ -1,0 +1,38 @@
+div{
+    width: 500px;
+    border: 2px solid black;
+    margin: 20px auto;
+}
+
+h1{
+    color: red;
+    font-size: 50px;
+}
+
+/* @media screen and (max-width:900px) { */
+/* @media screen and (min-width:600px) {
+    h1{
+        color: pink;
+        font-size: 10px;
+    }
+} */
+
+/* @media screen and (max-width:600px) { */
+/* @media screen and (min-width:900px) {
+    h1{
+        color: green;
+        font-size: 100px;
+    }
+} */
+
+
+@media screen and (orientation:landscape){
+    h1{
+        color: chartreuse;
+    }
+}
+@media screen and (orientation:portrait) , (max-width:560px){
+    h1{
+        color: orange;
+    }
+}
